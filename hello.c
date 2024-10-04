@@ -2,6 +2,7 @@
 
 int main()
 {
-	printf("hello, world!\n");
-	return 0
+    int count = printf("hello, world!\n");
+    printf("Number of characters printed: %d\n", count);
+    return 0;
 }
